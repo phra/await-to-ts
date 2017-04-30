@@ -1,4 +1,4 @@
-# await-to-js
+# await-to-ts
 
 [![NPM version][npm-image]][npm-url]
 [![Downloads][download-badge]][npm-url]
