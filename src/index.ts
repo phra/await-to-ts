@@ -3,7 +3,7 @@
  * @param { Object= } errorExt - Additional Information you can pass to the err object
  * @return { Promise }
  */
-export function awaitTo<T>(promise: Promise<T>, errorExt?: object) {
+export function to<T>(promise: Promise<T>, errorExt?: object) {
   return promise
     .then((data: T) => [null as any, data] as [Error, T])
     .catch((err: Error) => {
@@ -15,4 +15,4 @@ export function awaitTo<T>(promise: Promise<T>, errorExt?: object) {
     })
 }
 
-export default awaitTo
+export default to
