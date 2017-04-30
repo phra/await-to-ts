@@ -57,4 +57,4 @@ main()
 [depstat-url]: https://david-dm.org/phra/await-to-ts
 [depstat-image]: https://david-dm.org/phra/await-to-ts.svg?style=flat-square
 
-[download-badge]: http://img.shields.io/npm/phra/await-to-ts.svg?style=flat-square
+[download-badge]: https://img.shields.io/npm/dt/await-to-ts.svg?style=flat-square
