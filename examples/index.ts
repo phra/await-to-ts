@@ -1,4 +1,4 @@
-import to from '../'
+import to from '../index'
 
 const f = () => Promise.resolve(42)
 const g = () => Promise.resolve('42')
