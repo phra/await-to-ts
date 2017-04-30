@@ -1,4 +1,4 @@
-import to from '../src'
+import to from '../'
 
 const f = () => Promise.resolve(42)
 const g = () => Promise.resolve('42')
