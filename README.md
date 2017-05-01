@@ -35,8 +35,8 @@ async function main() {
   console.log(n) // n is a number
 
   const [err1, s] = await to(g())
-  if (err) {
-    throw err
+  if (err1) {
+    throw err1
   }
 
   console.log(s) // s is a string
