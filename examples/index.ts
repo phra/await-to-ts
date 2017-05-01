@@ -14,8 +14,8 @@ async function main() {
   console.log(n) // number | null # should be only number
 
   const [err1, m] = await to(g())
-  if (err) {
-    throw err
+  if (err1) {
+    throw err1
   } else {
     m // string | null # should be only string
   }
