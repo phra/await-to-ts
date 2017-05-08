@@ -7,7 +7,7 @@
 > Async await wrapper for easy error handling
 
  ## Pre-requisites
-You need to use Node 7.6 (or later) in order to use native async/await functionality. Target ES2015 or ES2016 for Node 6 or 4 in your TypeScript compiler options.
+You need to use Node 7.6 (or later) with esnext target in order to use native async/await functionality. Target ES2015 (Node v4) or ES2016 (node v6) in your TypeScript compiler options if you are using an older version.
 
 ## Install
 
