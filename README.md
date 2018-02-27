@@ -45,7 +45,7 @@ async function main() {
   console.log(s) // s is a string
 }
 
-main()
+main().catch(console.err.bind(console))
 ```
 
 [npm-url]: https://npmjs.org/package/await-to-ts
