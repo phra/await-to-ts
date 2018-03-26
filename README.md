@@ -1,5 +1,7 @@
 # await-to-ts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/phra/await-to-ts.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Downloads][download-badge]][npm-url]
 [![Coveralls][coveralls-image]][coveralls-url]
